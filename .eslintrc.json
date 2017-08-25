@@ -1,0 +1,12 @@
+{
+    "extends": "nodemailer",
+    "parserOptions": {
+        "ecmaVersion": 8
+    },
+    "rules": {
+        "no-await-in-loop": "off",
+        "no-console": "off",
+        "object-shorthand": "off",
+        "quote-props": "off"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "license": "EUPL-1.1",
+    "dependencies": {
+        "commander": "^2.11.0",
+        "mailparser": "^2.0.5",
+        "request": "^2.81.0",
+        "request-promise-native": "^1.0.4",
+        "smtp-server": "^3.1.0"
+    },
+    "devDependencies": {
+        "eslint": "^4.5.0",
+        "eslint-config-nodemailer": "^1.2.0"
+    },
+    "scripts": {
+        "test": "eslint ."
+    }
+}
